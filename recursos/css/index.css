@@ -14,7 +14,7 @@ body{
     border-radius: 10px;
     text-align: center;
     padding: 30px 20px;
-    width: 600px;
+    width: 700px;
     height: 350px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
 
@@ -69,3 +69,12 @@ body{
 #limpiar:hover{
     background-color: var(--clr-main-light);
 }
+
+
+/*Estilos para los mensajes de las validaciones*/
+
+.error-message{
+    color: var(--clr-red);
+    display: block;
+}
+
