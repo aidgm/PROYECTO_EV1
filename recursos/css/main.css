@@ -1,0 +1,16 @@
+body{
+    color: var(--clr-white);
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-mobile{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
