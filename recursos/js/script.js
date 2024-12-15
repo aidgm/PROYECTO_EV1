@@ -47,7 +47,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const passwordValido = validarPassword();
 
         if (nombreValido && passwordValido) {
-            alert("Bienvenido a CarbaShop");
             window.location.href = "./main.html";
             form.reset(); 
         }
